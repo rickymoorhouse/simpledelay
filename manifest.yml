@@ -1,0 +1,9 @@
+---
+applications:
+- name: delay
+  memory: 256M
+  instances: 2
+  host: delay
+  domain: eu-gb.mybluemix.net
+  path: .
+  command: python delay.py
